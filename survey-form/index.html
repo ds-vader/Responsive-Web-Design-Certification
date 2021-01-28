@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My website</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    </head>
+
+<body>
+    <div class="content">
+        <div>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">my own survey form</p>
+        </div>
+        <div class="form">
+            <form id="survey-form">
+                <div class="spot">
+                    <label id="name-label">
+                    Name
+                    </label>
+
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="spot">
+                    <label id="email-label">
+                        Email
+                    </label>
+                
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                </div>
+                <div class="spot">
+                    <label id="number-label">
+                        Number
+                    </label>
+                
+                    <input type="number" id="number" name="number" min="18" max="99" placeholder="Number" required>
+                </div>
+                <div class="spot">
+                    <label id="dropdown-list-label">
+                        Dropdown list
+                    </label>
+                
+                    <select id="dropdown">
+                        <option disabled="" selected="" value="">Select an option</option>
+                        <option value="1">First</option>
+                        <option value="2">Second</option>
+                        <option value="3">Third</option>
+                        <option value="4">Fourth</option>
+                    </select>
+                </div>
+                <div class="spot">
+                    <p>Radio choise</p>
+                    <label>
+                        <input type="radio" class="radio-list" name="radio" value="5">Fifth</br>
+                    </label>
+                
+                    <label>
+                        <input type="radio" class="radio-list" name="radio" value="6">Sixth
+                    </label>
+                
+                    <label>
+                        <input type="radio" class="radio-list" name="radio" value="7">Seventh
+                    </label>
+                </div>
+                <div class="spot">
+                    <p>Check list</p>
+                    <label>
+                        <input type="checkbox" class="check-list" name="checkbox" value="8">Eighth
+                    </label>
+        
+                    <label>
+                        <input type="checkbox" class="check-list" name="checkbox" value="9">Ninth
+                    </label>
+                
+                    <label>
+                        <input type="checkbox" class="check-list" name="checkbox" value="10">Tenth
+                    </label>
+                </div>
+                <div class="spot">
+                    <p>Text area</p>
+                    <textarea id="textarea" maxlength="140"></textarea>
+                </div>
+                <div>
+                  <button id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
