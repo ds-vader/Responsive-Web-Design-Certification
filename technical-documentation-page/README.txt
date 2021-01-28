@@ -1,1 +1,1 @@
-product page(freeCodeCamp)
+technical documentation (freeCodeCamp)
